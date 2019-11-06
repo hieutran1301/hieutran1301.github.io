@@ -514,7 +514,7 @@ iframe {
     position: absolute;
     top: 100%;
     left: -40px;
-    min-width: 232px;
+    min-width: 300px;
     background: #eeeeee;
     text-align: left;
     opacity: 0;
@@ -565,6 +565,7 @@ iframe {
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
   display: block;
+  white-space: unset;
 }
 
 .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.submenu .dropdown-menu li:last-child {
